@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Yuji+Mai&display=swap');
+
+/* Reset de estilos básicos e configuração da fonte para todo o site */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", serif;
+}
+
+/* Configuração do corpo da página */
+body {
+    text-align: center; /* Centraliza o texto */
+    min-height: 100vh;  /* Garante que o body ocupe toda a altura da tela */
+}
+
+/* Configuração do elemento principal */
+main {
+    display: inline-block; /* Mantém o tamanho do conteúdo ajustado */
+    margin-top: 2%;
+    padding: 15px;
+    position: relative; /* Permite posicionar elementos internos de forma absoluta */
+}
+
+/* Ajuste da imagem da Pokédex */
+.pokedex {
+    width: 100%;
+}
+
+/* Configuração da imagem do Pokémon */
+.pokemon-image {
+    display: none; /* Inicialmente, a imagem fica oculta */
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-63%, 20%);
+    height: 22%; /* Define a altura relativa */
+}
+
+/* Estilização dos dados do Pokémon */
+.pokemon-data {
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(8px, 5vw, 25px);
+}
+
+/* Estilização do nome do Pokémon */
+#pokemon-name {
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+/* Configuração do formulário de busca */
+#form {
+    position: absolute;
+    width: 65%;
+    top: 65%;
+    left: 13.5%;
+}
+
+/* Estilização do campo de entrada de busca */
+.input-search {
+    width: 100%; /* Ocupa toda a largura do formulário */
+    padding: 4%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 0 #888, -5px 7px 0 #333; /* Efeito de sombra */
+}
+
+/* Configuração dos botões */
+.buttons {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 65%;
+    transform: translate(-57%, 0); /* Ajusta o alinhamento */
+    display: flex; 
+    gap: 20px;
+}
+
+/* Estilização dos botões */
+.button {
+    width: 50%; /* Cada botão ocupa metade da largura disponível */
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px; 
+    font-size: clamp(8px, 5vw, 1rem); 
+    font-weight: 600;
+    color: white; 
+    background-color: #444; 
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000; /* Sombra para efeito 3D */
+}
+
+/* Efeito de clique nos botões */
+.button:active {
+    box-shadow: inset -4px 4px 0 #222; /* Sombra interna ao pressionar */
+    font-size: 0.9rem;
+}
