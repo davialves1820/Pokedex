@@ -1,12 +1,12 @@
 # Pokedex
 ---
 
-## Descrição
+## 📄 Descrição
 Este projeto é uma Pokedex interativa desenvolvida em HTML, CSS e JavaScript, que consome a API PokeAPI para exibir informações sobre os Pokémons.
 
 ---
 
-## Funcionalidades
+## 🔧 Funcionalidades
 - Buscar um Pokémon pelo nome ou número na Pokédex.
 
 - Exibir a imagem, nome e número do Pokémon.
@@ -17,11 +17,20 @@ Este projeto é uma Pokedex interativa desenvolvida em HTML, CSS e JavaScript, q
 
 ---
 
-## Estrutura do projeto
+## 🗂️ Estrutura dos arquivos
 
-- **Index.html**:
+- **Index.html**: Arquivo de indexação dos elementos da página.
+- **style.css**: Arquivo de estilização da página.
+- **js/app.js**: Arquivo que implementa as funcionalidades da pokedex.
 
 ---
 
-## Executar o projeto
-Você pode ter acesso a partir do link: 
+## 🖥️ Executar o projeto
+Você pode ter acesso a partir do link: [pokedex-xi-ashen-71.vercel.app](https://pokedex-xi-ashen-71.vercel.app/)
+
+---
+
+## 🖼️ Imagem do projeto 
+
+![image](https://github.com/user-attachments/assets/dd6080cd-4d36-4215-99d6-1c28707a5ada)
+
